@@ -1,20 +1,89 @@
-<<<<<<< HEAD
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# NearBuy Admin Panel
 
-Currently, two official plugins are available:
+Admin dashboard for the **NearBuy: A Reverse Marketplace for Local Shopping** project.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The NearBuy Admin Panel allows administrators to monitor and manage customers, sellers, product requests, and orders through a centralized web interface.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Admin login
+- Dashboard overview
+- Customer management
+- Seller management
+- Customer request monitoring
+- Order monitoring
+- Backend API status checking
+- Admin settings
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# NearBuy-Admin-Panel
->>>>>>> e3c2b8fe0c123f581588a149b427ac9c094c6399
+- React.js
+- Vite
+- JavaScript (JSX)
+- CSS
+- Node.js and Express.js (Backend API)
+- MongoDB (Database)
+
+## Project Structure
+
+```text
+admin-panel/
+├── public/
+├── src/
+├── package.json
+├── vite.config.js
+└── index.html
+```
+
+## Backend API
+
+The Admin Panel connects to the NearBuy backend API hosted on Render.
+
+## Local Installation
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Saquibguy/NearBuy-Admin-Panel.git
+```
+
+### 2. Open the project folder
+
+```bash
+cd NearBuy-Admin-Panel
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+### 5. Create a production build
+
+```bash
+npm run build
+```
+
+## Deployment
+
+The Admin Panel is deployed using Vercel.
+
+## Project
+
+**Project Name:** NearBuy: A Reverse Marketplace for Local Shopping
+
+**Project Type:** BSc Computer Science Final-Year Project
+
+**Module:** Admin Panel
+
+## Author
+
+Saquib Chaudhary
